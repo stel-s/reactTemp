@@ -7,3 +7,8 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+
+it('computes score A', () => {
+  getScore(['A']) === 50
+});
